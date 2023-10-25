@@ -7,7 +7,7 @@
 .container{
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/taipei.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -120,7 +120,7 @@ button:hover{
 }
 
 .card4{
-    background-image: url("img/chicken.PNG");
+    background-image: url("img/chicken slices.PNG");
 }
 
 .card5{

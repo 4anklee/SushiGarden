@@ -1,12 +1,13 @@
 *{
-    margin: 0;
-    font-family: "Roboto Light", serif
+    margin:0;
+
+    font-family: 'Roboto', sans-serif;
 }
 
 .container{
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -16,24 +17,153 @@
     box-sizing: border-box;
 }
 
-.side-content{
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: page;
-    padding-left: 6%;
-    padding-right: 2%;
+.navbar{
+    height: 13vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 7vh;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header{
+    background-image: url("img/LOGO.png");
+    width: 10vh;
+    height: 74vh;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 15px 15px;
     box-sizing: border-box;
+    margin: 10px 15px;
+    background-size: cover;
+    transition: transform 0.5s;;
 }
 
-.side-header{
-
+.col{
+    flex-basis: 50%;
+    align-content: center;
 }
 
-.photo-gallery{
-
+h1{
+    color: #fff;
+    font-size: 100px;
 }
 
+p{
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #fff;
+    background: #000;
+}
+
+.card{
+    width: 70vh;
+    height: 74vh;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+#goals\ title{
+    margin-top: 5vh;
+    margin-left: 3vh;
+    font-size: 7vh;
+    font-weight: bold;
+}
+
+#goals\ description{
+    margin-top: 5vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    font-size: 3vh;
+    color: white;
+    line-height: 6vh;
+}
+
+#goals\ description li{
+    list-style: none;
+}
+
+.card1{
+    background-color: rgba(229, 227, 227, 0.3);
+}
+
+#navbar-button li {
+    width: 100px;
+    height: 20px;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px 5px;
+    color: #fff;
+}
+
+#navbar-button li:hover {
+    background-color: rgba(246, 245, 245, 0.2);
+}
+
+footer{
+    background-color: rgb(29,29,31);
+    color: #6c6b6b;
+    text-align: center;
+    padding: 4vh 6vh;
+    font-family: ".AppleSystemUIFont", serif;
+    font-size: 2vh;
+    background-size: cover;
+}
