@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ceb429c0-bcef-43e6-a00e-5d709e1fdd5f" name="Changes" comment="version1">
-      <change afterPath="$PROJECT_DIR$/Flavors.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Meat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sushi.css" afterDir="false" />
+    <list default="true" id="ceb429c0-bcef-43e6-a00e-5d709e1fdd5f" name="Changes" comment="version2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flavors.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flavors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Meat.html" beforeDir="false" afterPath="$PROJECT_DIR$/Meat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sushi.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sushi.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698180086936</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="version2">
+      <option name="closed" value="true" />
+      <created>1698187811893</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698187811893</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +190,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version1" />
-    <option name="LAST_COMMIT_MESSAGE" value="version1" />
+    <MESSAGE value="version2" />
+    <option name="LAST_COMMIT_MESSAGE" value="version2" />
   </component>
 </project>
