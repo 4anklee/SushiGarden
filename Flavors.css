@@ -108,19 +108,27 @@ button:hover{
 }
 
 .card1{
-    background-image: url("img/.jpeg");
+    background-image: url("img/spicy.PNG");
 }
 
 .card2{
-    background-image: url("img/slc.jpeg");
+    background-image: url("img/miso.PNG");
 }
 
 .card3{
-    background-image: url("img/sanxia.jpeg");
+    background-image: url("img/sukiyaki.PNG");
 }
 
 .card4{
-    background-image: url("img/wuhan.webp");
+    background-image: url("img/beef bone.PNG");
+}
+
+.card5{
+    background-image: url("img/milk.PNG");
+}
+
+.card6{
+    background-image: url("img/chicken.PNG");
 }
 
 .card:hover{
