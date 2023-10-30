@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ceb429c0-bcef-43e6-a00e-5d709e1fdd5f" name="Changes" comment="version4">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ceb429c0-bcef-43e6-a00e-5d709e1fdd5f" name="Changes" comment="version2">
+      <change beforePath="$PROJECT_DIR$/Flavors.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flavors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Meat.html" beforeDir="false" afterPath="$PROJECT_DIR$/Meat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sushi.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sushi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,17 +39,17 @@
     </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;4anklee&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "4anklee"
   }
-}</component>
+}]]></component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
@@ -58,15 +61,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1698257219" />
+                    <option name="lastUsedInstant" value="1698179916" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="test" />
-                    <option name="lastUsedInstant" value="1698257204" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="master1" />
-                    <option name="lastUsedInstant" value="1698253217" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1698166971" />
                   </RecentBranch>
                 </list>
               </option>
@@ -85,9 +84,9 @@
       </UrlAndAccount>
     </option>
   </component>
-  <component name="KubernetesApiProvider">{
-  &quot;isMigrated&quot;: true
-}</component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -107,7 +106,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master2",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/Frank/Documents/GitHub/GroupProject",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -239,31 +238,7 @@
       <option name="project" value="LOCAL" />
       <updated>1698211576755</updated>
     </task>
-    <task id="LOCAL-00014" summary="version3">
-      <option name="closed" value="true" />
-      <created>1698211693262</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1698211693262</updated>
-    </task>
-    <task id="LOCAL-00015" summary="version3">
-      <option name="closed" value="true" />
-      <created>1698253551666</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1698253551666</updated>
-    </task>
-    <task id="LOCAL-00016" summary="version4">
-      <option name="closed" value="true" />
-      <created>1698253777571</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1698253777571</updated>
-    </task>
-    <option name="localTasksCounter" value="17" />
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,8 +259,6 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="version1" />
     <MESSAGE value="version2" />
-    <MESSAGE value="version3" />
-    <MESSAGE value="version4" />
-    <option name="LAST_COMMIT_MESSAGE" value="version4" />
+    <option name="LAST_COMMIT_MESSAGE" value="version2" />
   </component>
 </project>
