@@ -1,17 +1,24 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('font/Ounen-mouhitsu.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
-    background-color: white;
+    background-color: #b4a79f;
     overflow: hidden;
 }
 .container{
     position: absolute;
-    left: 50%;
+    left: 55%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 1000px;
-    height: 600px;
+    width: 75%;
+    height: 80%;
     padding: 50px;
-    background-color: #f5f5f5;
-    box-shadow: 0 30px 50px #dbdbdb;
+    background-color: #d7c4b0;
+    box-shadow: 0 30px 50px #dabea2;
 }
 #slide{
     width:max-content;
@@ -42,16 +49,16 @@ body{
     box-shadow: none;
 }
 .item:nth-child(3){
-    left: 50%;
+    left: 70%;
 }
 .item:nth-child(4){
-    left:calc(50% + 220px)
+    left:calc(70% + 220px)
 }
 .item:nth-child(5){
-    left:calc(50% + 440px)
+    left:calc(70% + 440px)
 }
-.item:nth-child(n+6){
-    left:calc(50% + 660px);
+.item:nth-child(n+5){
+    left:calc(60% + 660px);
     opacity: 0;
 }
 .item .content{
@@ -70,20 +77,35 @@ body{
     z-index: 11111;
 }
 .item .name{
-    font-family: ".AppleSystemUIFont", serif;
+    font-family: "MyFont", serif;
+    text-shadow: #000;
     font-weight: bold;
+    position: fixed;
+    left: -5vh;
+    top: -40vh;
+    font-size: 20vh;
     opacity: 0;
     animation: showContent 1s ease-in-out 1 forwards;
 }
-.item .des{
+.item .description{
+    position: fixed;
+    font-family: "MyFont", serif;
+    font-size: 10vh;
+    left: -3vh;
+    top: -10vh;
     margin: 20px 0;
     opacity: 0;
     animation: showContent 1s ease-in-out 0.3s 1 forwards;
 }
 .item button{
-    padding: 10px 20px;
+    font-family: "MyFont", serif;
+    padding: 25px 60px;
+    position: fixed;
+    left: -3vh;
+    top: 10vh;
     border:none;
     opacity: 0;
+    border-radius: 20vh;
     animation: showContent 1s ease-in-out 0.6s 1 forwards;
 }
 @keyframes showContent {
@@ -113,4 +135,17 @@ body{
 }
 .button button:hover{
     background-color: #797977;
+}
+.side-container {
+    display: flex;
+    position: fixed;
+    left: 1%;
+    top:-40%;
+    z-index: 9999;
+}
+
+.side-container img {
+    width: 100px;
+    height: 1000px;
+    max-width: 100%;
 }
