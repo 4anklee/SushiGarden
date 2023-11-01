@@ -4,17 +4,16 @@
     font-weight: normal;
     font-style: normal;
 }
-
 body{
     background-color: #b4a79f;
     overflow: hidden;
 }
 .container{
     position: absolute;
-    left: 55%;
+    left: 54%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 75%;
+    width: 70%;
     height: 80%;
     padding: 50px;
     background-color: #d7c4b0;
@@ -125,6 +124,7 @@ body{
     z-index: 22222;
     text-align: center;
     width: 100%;
+    left: -5vh;
 }
 .button button{
     width:50px;
@@ -137,10 +137,9 @@ body{
     background-color: #797977;
 }
 .side-container {
-    display: flex;
     position: fixed;
     left: 1%;
-    top:-40%;
+    margin-top:-20%;
     z-index: 9999;
 }
 
@@ -148,4 +147,68 @@ body{
     width: 100px;
     height: 1000px;
     max-width: 100%;
+}
+.hamburger{
+    position: relative;
+    display: block;
+    width: 35px;
+    cursor: pointer;
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+    left: 95%;
+    top: 2vh;
+    z-index: 9999999999999;
+}
+
+.hamburger .bar, .hamburger:after, .hamburger:before{
+    content: '';
+    display:block;
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+    border-radius: 999px;
+    z-index: 99999999999;
+}
+.hamburger.is-active:before{
+    transform: rotate(-45deg) translate(-7px, 6px);
+}
+.hamburger.is-active:after{
+    transform: rotate(45deg) translate(-9px, -9px);
+}
+.hamburger.is-active .bar{
+    opacity: 0;
+}
+.mobile-nav{
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 100%;
+    height: 100vh;
+    width: 30%;
+    min-height: 100vh;
+    z-index: 99999999;
+    background-color: black;
+    padding-top: 10vh;
+    transition: 0.4s;
+}
+.mobile-nav.is-active{
+    left: 70%;
+}
+.mobile-nav a{
+    display: block;
+    text-align: center;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto 16px;
+    padding: 4vh 6vh;
+    background-color: gainsboro;
+    color: white;
+    text-decoration: none;
+}
+.mobile-nav a:hover{
+    background-color: darkgray;
 }
