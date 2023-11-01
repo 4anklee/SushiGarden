@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ceb429c0-bcef-43e6-a00e-5d709e1fdd5f" name="Changes" comment="version4 with test">
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    <list default="true" id="ceb429c0-bcef-43e6-a00e-5d709e1fdd5f" name="Changes" comment="photo-gallery">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flavors.css" beforeDir="false" afterPath="$PROJECT_DIR$/Flavors.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,6 +131,16 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="slider.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GroupProject/slider.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.slider.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -272,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698253777571</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="photo-gallery">
+      <option name="closed" value="true" />
+      <created>1698700714465</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1698700714465</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,6 +313,8 @@
     <MESSAGE value="version2" />
     <MESSAGE value="version3" />
     <MESSAGE value="version4" />
-    <option name="LAST_COMMIT_MESSAGE" value="version4" />
+    <MESSAGE value="version4 with test" />
+    <MESSAGE value="photo-gallery" />
+    <option name="LAST_COMMIT_MESSAGE" value="photo-gallery" />
   </component>
 </project>
