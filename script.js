@@ -14,3 +14,22 @@ menu_btn.addEventListener('click', function (){
     menu_btn.classList.toggle('is-active');
     nav_bar.classList.toggle('is-active')
 });
+
+
+let isPlaying =true;
+let intervalId;
+
+function autoChangeImage() {
+    intervalId = setInterval(function () {
+        if(isPlaying) {
+            document.getElementById('next').click();
+        }
+    }, 5000);
+}
+
+autoChangeImage();
+
+document.getElementById('pause').onclick = function (){
+    isPlaying = !isPlaying
+    const pauseButton = document.getElementById('pause')
+}

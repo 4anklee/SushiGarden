@@ -126,24 +126,42 @@ body{
     width: 100%;
     left: -5vh;
 }
-.button button{
-    width:50px;
-    height: 50px;
-    border-radius: 50%;
-    border: none;
-    transition: 0.5s;
-    /*background-color: rgba(248, 244, 244, 0.5);*/
-}
-.button button:hover{
-    background-color: #797977;
-}
 #prev {
+    height: 70vh;
+    width: 10vh;
+    border-radius: 1vh;
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-right: 130vh;
-    margin-bottom: 40vh;
+    font-size: 5vh;
+    transition: 0.4s;
+    margin-left: 5vh;
+    margin-top: 10vh;
+}
+#prev:hover{
+    background-color: rgba(246, 246, 246, 0.1);
+}
+#next{
+    opacity: 0;
+}
+#pause{
+    height: 10vh;
+    width: 10vh;
+    border-radius: 1vh;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 5vh;
+    transition: 0.4s;
+    margin-left: 5vh;
+
+}
+#pause:hover {
+    background-color: rgba(246, 246, 246, 0.1);
 }
 i{
     color: white;
@@ -151,13 +169,13 @@ i{
 .side-container {
     position: fixed;
     left: 1%;
-    margin-top:-20%;
+    margin-top:-25vh;
     z-index: 9999;
 }
 
 .side-container img {
-    width: 100px;
-    height: 1000px;
+    width: 20vh;
+    height: 140vh;
     max-width: 100%;
 }
 .hamburger{
@@ -200,7 +218,7 @@ i{
     top: 0;
     left: 100%;
     height: 100vh;
-    width: 30%;
+    width: 25%;
     min-height: 100vh;
     z-index: 99999999;
     background-color: rgba(0,0,0,.5);
@@ -209,19 +227,22 @@ i{
     backdrop-filter: blur(3px)
 }
 .mobile-nav.is-active{
-    left: 70%;
+    left: 75%;
 }
 .mobile-nav a{
     font-size: 5vh;
     font-family: 'MyFont', serif;
     display: block;
     text-align: center;
+    justify-content: center;
     width: 100%;
     max-width: 80%;
     margin: 0 auto 16px;
-    padding: 4vh 3vh;
+    padding: 1vh 0vh;
     color: white;
     text-decoration: none;
+    transition: 1s;
+    border-radius: 2vh;
 }
 .mobile-nav a:hover{
     background-color: rgba(79, 75, 75, 0.5);
