@@ -191,7 +191,7 @@ body{
     width: 30%;
     min-height: 100vh;
     z-index: 99999999;
-    background-color: black;
+    background-color: rgba(0,0,0,.5);
     padding-top: 10vh;
     transition: 0.4s;
 }
@@ -199,16 +199,17 @@ body{
     left: 70%;
 }
 .mobile-nav a{
+    font-family: 'MyFont', serif;
     display: block;
     text-align: center;
     width: 100%;
     max-width: 80%;
     margin: 0 auto 16px;
     padding: 4vh 6vh;
-    background-color: gainsboro;
+    background-color: rgba(103, 101, 101, 0.5);
     color: white;
     text-decoration: none;
 }
 .mobile-nav a:hover{
-    background-color: darkgray;
+    background-color: rgba(79, 75, 75, 0.5);
 }
