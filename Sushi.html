@@ -2,91 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Frank's page</title>
-    <link rel="stylesheet" href="Sushi.css">
+    <meta name="viewport" content="width=device-width">
+    <title>Shabu Garden</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
-<!--Frank's Work-->
+
 <body>
-<div class="container">
-    <div class="navbar">
-        <a href="">
-            <img class="logo" src="img/facebook.png"  alt="fb">
-        </a>
-        <a href="">
-            <img class="logo" src="img/instagram.png" alt="ig">
-        </a>
-        <nav>
-            <ul id="navbar-button">
-                <a href="index.html" ><li>HOME</li></a>
-                <a href=""><li>Whatever</li></a>
-                <a href="" ><li>whatever</li></a>
-            </ul>
-        </nav>
-        <img src="img/nav-icon.png" class="menu-icon" alt="menu">
-    </div>
-
-    <div class="row">
-        <div class="col">
-            <h1>Sushi!</h1>
-            <p>
-                Pick your favorite Sushi!
-            </p>
-            <a id="exploreLink"
-               href="">
-                <button type="button">
-                    Button
-                </button>
-            </a>
-        </div>
-
-        <div class="col">
-            <a href="">
-                <div class="card card1">
-                    <h5>Sunshine Roll</h5>
-                    <p>Tempura, Avocado, Spicy mayo</p>
-                </div>
-            </a>
-            <a href="">
-                <div class="card card2">
-                    <h5>Happy Roll</h5>
-                    <p>Tuna, Salmon, Avocado, Cream Cheese</p>
-                </div>
-            </a>
-            <a href="">
-                <div class="card card3">
-                    <h5>Spicy California Roll</h5>
-                    <p>Avocado, Spicy soy sauce, Cucumber, Eel Sauce</p>
-                </div>
-            </a>
-            <a href="">
-                <div class="card card4">
-                    <h5>Summer Roll</h5>
-                    <p>Avocado, Spicy soy sauce, Cucumber, Tuna, Egg</p>
-                </div>
-            </a>
-            <a href="">
-                <div class="card card5">
-                    <h5>Nigiri</h5>
-                    <p>Sushi consisting of a small ball of rice smeared with wasabi sauce and topped with raw fish or other seafood.
-                    </p>
-                </div>
-            </a>
-            <a href="">
-                <div class="card card6">
-                    <h5>Sashimi</h5>
-                    <p>Fresh raw fish or meat sliced into thin pieces and often eaten with soy sauce.</p>
-                </div>
-            </a>
+    <div class="hamburger">
+        <div class="bar">
         </div>
     </div>
+    <div class="mobile-nav">
+        <a href="Broth.html" id="link1">BROTH</a>
+        <a href="Meat.html" id="link2">MEAT</a>
+        <a href="Sushi.html" id="link3">SUSHI</a>
+        <a href="AboutUs.html" id="link4">ABOUT US</a>
+    </div>
+    <div class="side-container">
+        <a href="index.html"><img src="img/STORELOGO2.png" alt="store logo"></a>
+    </div>
 
+    <div class="container">
+        <div id="slide">
+            <div class="item" style="background-image: url(img/sushi1.png)">
+                <div class="content">
+                    <div class="name">SunshineRoll</div>
+                    <div class="description">Tempura, Avocado, Spicy mayo</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(img/sushi2.png)">
+                <div class="content">
+                    <div class="name">SunsetRoll</div>
+                    <div class="description">Tuna, Salmon, Avocado, Cream Cheese</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(img/sushi3.png)">
+                <div class="content">
+                    <div class="name">SpicyCaliforniaRoll</div>
+                    <div class="description">Avocado, Spicy soy sauce, Cucumber, Eel Sauce</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(img/sushi4.png)">
+                <div class="content">
+                    <div class="name">SummerRoll</div>
+                    <div class="description">Avocado, Spicy soy sauce, Cucumber, Tuna, Egg</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(img/nigiri.png)">
+                <div class="content">
+                    <div class="name">Nigiri</div>
+                    <div class="description">Daily Limited!</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(img/sashimi.png)">
+                <div class="content">
+                    <div class="name">Sashimi</div>
+                    <div class="description">Daily Limited!</div>
+                </div>
+            </div>
+            <div class="button">
+                <div id="prev"><i class="fa-solid fa-angle-left"></i></div>
+                <div id="next"><i class="fa-solid fa-angle-right"></i></div>
+                <div id="pause"><i class="fa-solid fa-pause" style="color: #ffffff;"></i></div>
+            </div>
+        </div>
+    <script src="script.js"></script>
 </div>
 
 </body>
 
 <footer>
-    Copyright © 2023 NAME. All rights reserved.
+    COPYRIGHT (c) 2023 SHABU GARDEN. All rights reserved.
 </footer>
 
 </html>

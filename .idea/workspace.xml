@@ -5,8 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ceb429c0-bcef-43e6-a00e-5d709e1fdd5f" name="Changes" comment="photo-gallery">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AboutUs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Broth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/LOGO2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/STORELOGO1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/STORELOGO2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/restarant2.WEBP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/restaurant1.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flavors.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flavors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Meat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Meat.html" beforeDir="false" afterPath="$PROJECT_DIR$/Meat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sushi.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sushi.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sushi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/beef bone.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/img/beefBone.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/chicken slices.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/img/chickenSlices.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/marbled pork.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/img/marbledPork.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wogyu steak.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/img/wogyuSteak.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -153,7 +169,7 @@
       <workItem from="1698102157113" duration="1100000" />
       <workItem from="1698103291012" duration="43000" />
       <workItem from="1698103378937" duration="2470000" />
-      <workItem from="1698860539151" duration="7660000" />
+      <workItem from="1698860539151" duration="24684000" />
     </task>
     <task id="LOCAL-00001" summary="version1">
       <option name="closed" value="true" />
@@ -331,7 +347,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698860303136</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="photo-gallery">
+      <option name="closed" value="true" />
+      <created>1698875692244</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1698875692244</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
