@@ -1,3 +1,4 @@
+/*Evelyn's work*/
 @font-face {
     font-family: 'MyFont';
     src: url('font/Ounen-mouhitsu.otf') format('opentype');
@@ -8,6 +9,7 @@ body{
     background-color: #b4a79f;
     overflow-x: hidden;
 }
+/*Frank's work*/
 .container{
     position: absolute;
     left: 54%;
@@ -150,6 +152,7 @@ body{
     text-align: center;
     left: -5vh;
 }
+/*Moroni's work*/
 #prev {
     height: 70vh;
     width: 10vh;

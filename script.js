@@ -1,3 +1,4 @@
+//Frank's work
 document.getElementById('next').onclick = function (){
     let lists = document.querySelectorAll('.item');
     document.getElementById('slide').appendChild(lists[0]);
@@ -7,6 +8,7 @@ document.getElementById('prev').onclick = function (){
     document.getElementById('slide').prepend(lists[lists.length - 1]);
 }
 
+//Moroni's work
 const menu_btn = document.querySelector('.hamburger');
 const nav_bar = document.querySelector('.mobile-nav');
 
@@ -25,6 +27,7 @@ menu_btn.addEventListener('click', function (){
     }, 100);
 });
 
+//Frank's work
 document.addEventListener('click', function (e) {
     if (!menu_btn.contains(e.target) && !nav_bar.contains(e.target)) {
         menu_btn.classList.remove('is-active');
