@@ -2,53 +2,91 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>index</title>
+    <meta name="viewport" content="width=device-width">
+    <title>Shabu Garden</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
 
+<!--Frank's work-->
 <body>
-<div class="container">
-    <div class="navbar">
-        <a href="">
-            <img class="logo" src="img/facebook.png"  alt="fb">
-        </a>
-        <a href="">
-            <img class="logo" src="img/instagram.png" alt="ig">
-        </a>
-        <nav>
-            <ul id="navbar-button">
-                <a href="index.html" ><li>HOME</li></a>
-                <a href=""><li>whatever</li></a>
-                <a href="" ><li>whatever</li></a>
-            </ul>
-        </nav>
-        <img src="img/nav-icon.png" class="menu-icon" alt="menu">
-    </div>
-
-    <div class="row">
-        <div class="header">
-            <p></p>
+    <div class="hamburger">
+        <div class="bar">
         </div>
-
-        <div class="col">
-            <div class="card card1">
-                <p id="goals title"></p>
-                <ul id="goals description">
-                    <li></li>
-                    <li></li>
-                </ul>
+    </div>
+    <!--Moroni's work-->
+    <div class="mobile-nav">
+        <a href="Broth.html" id="link1">BROTH</a>
+        <a href="Meat.html" id="link2">MEAT</a>
+        <a href="Sushi.html" id="link3">SUSHI</a>
+        <a href="AboutUs.html" id="link4">ABOUT US</a>
+    </div>
+    <div class="side-container">
+        <a href="index.html"><img src="img/STORELOGO2.png" alt="store logo"></a>
+    </div>
+        <div class="container">
+            <div id="slide">
+                <!--Evelyn's work-->
+                <div class="item" style="background-image: url(img/restaurant1.webp)">
+                    <div class="content">
+                        <div class="name">Reservations</div>
+                        <div class="description">Book a table online</div>
+                        <a href="AboutUs.html"><button>Reserve</button></a>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(img/restarant2.WEBP)">
+                    <div class="content">
+                        <div class="name">AboutUs</div>
+                        <div class="description">Learn more about SHABU GARDEN</div>
+                        <a href="AboutUs.html"><button>Explore</button></a>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(img/chicken.PNG)">
+                    <div class="content">
+                        <div class="name">Broth</div>
+                        <div class="description">Take a look of our broth choices</div>
+                        <a href="Broth.html"><button>Broth</button></a>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(img/sashimi.png)">
+                    <div class="content">
+                        <div class="name">Sashimi</div>
+                        <div class="description">Daily limited</div>
+                        <a href="Sushi.html"><button>Sushi</button></a>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(img/sushi1.png)">
+                    <div class="content">
+                        <div class="name">Sushi</div>
+                        <div class="description">American style sushi rolls</div>
+                        <a href="Sushi.html"><button>Sushi</button></a>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(img/wogyu.PNG)">
+                    <div class="content">
+                        <div class="name">Meat</div>
+                        <div class="description">Top-notch meat choices</div>
+                        <a href="Meat.html"><button>Meat</button></a>
+                    </div>
+                </div>
+                <!--Frank's work-->
+                <div class="button">
+                    <div id="prev"><i class="fa-solid fa-angle-left"></i></div>
+                    <div id="next"><i class="fa-solid fa-angle-right"></i></div>
+                    <div id="pause">
+                        <i class="fa-solid fa-pause" style="color: #ffffff;"></i>
+                        <i class="fa-solid fa-play" style="color: #ffffff; display: none;"></i>
+                    </div>
+                </div>
             </div>
+            <script src="script.js"></script>
         </div>
-    </div>
-
-</div>
-
 </body>
 
 <footer>
-    Copyright © 2023 . All rights reserved.
+    COPYRIGHT (c) 2023 SHABU GARDEN. All rights reserved.
 </footer>
 
 </html>

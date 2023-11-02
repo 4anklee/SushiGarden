@@ -4,11 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ceb429c0-bcef-43e6-a00e-5d709e1fdd5f" name="Changes" comment="version2">
-      <change beforePath="$PROJECT_DIR$/Flavors.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flavors.html" afterDir="false" />
+    <list default="true" id="ceb429c0-bcef-43e6-a00e-5d709e1fdd5f" name="Changes" comment="photo-gallery">
+      <change afterPath="$PROJECT_DIR$/AboutUs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Broth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/LOGO2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/STORELOGO1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/STORELOGO2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/restarant2.WEBP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/restaurant1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flavors.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flavors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Meat.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Meat.html" beforeDir="false" afterPath="$PROJECT_DIR$/Meat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sushi.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Sushi.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sushi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/beef bone.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/img/beefBone.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/chicken slices.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/img/chickenSlices.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/marbled pork.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/img/marbledPork.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wogyu steak.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/img/wogyuSteak.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +35,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
       </list>
@@ -39,17 +57,17 @@
     </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "4anklee"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;4anklee&quot;
   }
-}]]></component>
+}</component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
@@ -60,12 +78,20 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1698179916" />
+                    <option name="branchName" value="photo-gallery" />
+                    <option name="lastUsedInstant" value="1698687390" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1698166971" />
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1698257219" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="test" />
+                    <option name="lastUsedInstant" value="1698257204" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master1" />
+                    <option name="lastUsedInstant" value="1698253217" />
                   </RecentBranch>
                 </list>
               </option>
@@ -84,9 +110,9 @@
       </UrlAndAccount>
     </option>
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -98,29 +124,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/Frank/Documents/GitHub/GroupProject",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;photo-gallery&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Frank/Documents/GitHub/GroupProject&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="slider.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GroupProject/slider.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.slider.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -133,6 +169,7 @@
       <workItem from="1698102157113" duration="1100000" />
       <workItem from="1698103291012" duration="43000" />
       <workItem from="1698103378937" duration="2470000" />
+      <workItem from="1698860539151" duration="24684000" />
     </task>
     <task id="LOCAL-00001" summary="version1">
       <option name="closed" value="true" />
@@ -238,7 +275,87 @@
       <option name="project" value="LOCAL" />
       <updated>1698211576755</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="version3">
+      <option name="closed" value="true" />
+      <created>1698211693262</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1698211693262</updated>
+    </task>
+    <task id="LOCAL-00015" summary="version3">
+      <option name="closed" value="true" />
+      <created>1698253551666</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1698253551666</updated>
+    </task>
+    <task id="LOCAL-00016" summary="version4">
+      <option name="closed" value="true" />
+      <created>1698253777571</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1698253777571</updated>
+    </task>
+    <task id="LOCAL-00017" summary="photo-gallery">
+      <option name="closed" value="true" />
+      <created>1698700714465</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1698700714465</updated>
+    </task>
+    <task id="LOCAL-00018" summary="photo-gallery">
+      <option name="closed" value="true" />
+      <created>1698814462547</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1698814462548</updated>
+    </task>
+    <task id="LOCAL-00019" summary="photo-gallery">
+      <option name="closed" value="true" />
+      <created>1698821190478</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1698821190478</updated>
+    </task>
+    <task id="LOCAL-00020" summary="photo-gallery">
+      <option name="closed" value="true" />
+      <created>1698856816037</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1698856816037</updated>
+    </task>
+    <task id="LOCAL-00021" summary="photo-gallery">
+      <option name="closed" value="true" />
+      <created>1698857279080</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1698857279080</updated>
+    </task>
+    <task id="LOCAL-00022" summary="photo-gallery">
+      <option name="closed" value="true" />
+      <created>1698860303136</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1698860303136</updated>
+    </task>
+    <task id="LOCAL-00023" summary="photo-gallery">
+      <option name="closed" value="true" />
+      <created>1698875692244</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1698875692244</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +376,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="version1" />
     <MESSAGE value="version2" />
-    <option name="LAST_COMMIT_MESSAGE" value="version2" />
+    <MESSAGE value="version3" />
+    <MESSAGE value="version4" />
+    <MESSAGE value="version4 with test" />
+    <MESSAGE value="photo-gallery" />
+    <option name="LAST_COMMIT_MESSAGE" value="photo-gallery" />
   </component>
 </project>

@@ -2,91 +2,91 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Frank's page</title>
-    <link rel="stylesheet" href="Meat.css">
+    <meta name="viewport" content="width=device-width">
+    <title>Shabu Garden</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
-<!--Frank's Work-->
+
 <body>
-<div class="container">
-    <div class="navbar">
-        <a href="">
-            <img class="logo" src="img/facebook.png"  alt="fb">
-        </a>
-        <a href="">
-            <img class="logo" src="img/instagram.png" alt="ig">
-        </a>
-        <nav>
-            <ul id="navbar-button">
-                <a href="index.html" ><li>HOME</li></a>
-                <a href=""><li>Whatever</li></a>
-                <a href="" ><li>whatever</li></a>
-            </ul>
-        </nav>
-        <img src="img/nav-icon.png" class="menu-icon" alt="menu">
-    </div>
-
-    <div class="row">
-        <div class="col">
-            <h1>Meat!</h1>
-            <p>
-                Pick your favorite Meat!
-            </p>
-            <a id="exploreLink"
-               href="">
-                <button type="button">
-                    Button
-                </button>
-            </a>
-        </div>
-
-        <div class="col">
-            <a href="">
-                <div class="card card1">
-                    <h5>Wogyu </h5>
-                    <p>Any of four strains of a breed of black or red Japanese cattle </p>
-                </div>
-            </a>
-            <a href="">
-                <div class="card card2">
-                    <h5>Wogyu Steak </h5>
-                    <p>It has a buttery, yet firm texture and lustrous,
-                        red colour It's a very juicy style of beef with some serious umami flavour.</p>
-                </div>
-            </a>
-            <a href="">
-                <div class="card card3">
-                    <h5>Lamb </h5>
-                    <p>A type of red meat that comes from young sheep.</p>
-                </div>
-            </a>
-            <a href="">
-                <div class="card card4">
-                    <h5>Chicken Slices </h5>
-                    <p>The leftover pieces of breast fillet that has been trimmed off the breast when it is cut to size.</p>
-                </div>
-            </a>
-            <a href="">
-                <div class="card card5">
-                    <h5>Pork </h5>
-                    <p>Flesh of hogs, firm and fine-grained, well-marbled, and covered with an outer layer of firm white fat.</p>
-                </div>
-            </a>
-            <a href="">
-                <div class="card card6">
-                    <h5>Marbled Pork </h5>
-                    <p>Marbling is the intermingling of fat with lean in a muscle.</p>
-                </div>
-            </a>
+    <div class="hamburger">
+        <div class="bar">
         </div>
     </div>
+    <div class="mobile-nav">
+        <a href="Broth.html" id="link1">BROTH</a>
+        <a href="Meat.html" id="link2">MEAT</a>
+        <a href="Sushi.html" id="link3">SUSHI</a>
+        <a href="AboutUs.html" id="link4">ABOUT US</a>
+    </div>
+    <div class="side-container">
+        <a href="index.html"><img src="img/STORELOGO2.png" alt="store logo"></a>
+    </div>
 
+    <div class="container">
+        <div id="slide">
+            <div class="item" style="background-image: url(img/wogyu.PNG)">
+                <div class="content">
+                    <div class="name">Wagyu</div>
+                    <div class="description">
+                        World-renowned delicacy of Wagyu beef. Extraordinary marbling, unparalleled tenderness, and exquisite.                    </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(img/wogyuSteak.PNG)">
+                <div class="content">
+                    <div class="name">WagyuSteak</div>
+                    <div class="description">
+                        Buttery, yet firm texture and lustrous, red colour It's a very juicy style of beef with some serious umami flavour.
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(img/lamb.PNG)">
+                <div class="content">
+                    <div class="name">Lamb</div>
+                    <div class="description">
+                        Premium lamb, raised with care on lush pastures, a perfect blend of tenderness and rich, grass-fed goodness.
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(img/chickenSlices.PNG)">
+                <div class="content">
+                    <div class="name">Chicken</div>
+                    <div class="description">
+                        Unparalleled quality, carefully selected for its tenderness, succulence, and exceptional flavor.
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(img/pork.PNG)">
+                <div class="content">
+                    <div class="name">Pork</div>
+                    <div class="description">
+                        Epitome perfection with our exceptional cuts, meticulously chosen for their unmatched quality.
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(img/marbledPork.PNG)">
+                <div class="content">
+                    <div class="name">MarbledPork</div>
+                    <div class="description">
+                        A masterpiece of flavor and texture, delicate intramuscular fat creates a culinary masterpiece of succulence and taste.
+                    </div>
+                </div>
+            </div>
+            <div class="button">
+                <div id="prev"><i class="fa-solid fa-angle-left"></i></div>
+                <div id="next"><i class="fa-solid fa-angle-right"></i></div>
+                <div id="pause"><i class="fa-solid fa-pause" style="color: #ffffff;"></i></div>
+            </div>
+        </div>
+    <script src="script.js"></script>
 </div>
 
 </body>
 
 <footer>
-    Copyright © 2023 NAME. All rights reserved.
+    COPYRIGHT (c) 2023 SHABU GARDEN. All rights reserved.
 </footer>
 
 </html>
